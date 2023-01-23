@@ -178,46 +178,49 @@ public class App {
         //     System.out.printf("\n%d", parimpar[x]);
         // }
 
-        System.out.println("Digite a quantidade de alunos da turma: ");
+        // System.out.println("Digite a quantidade de alunos da turma: ");
 
-        Scanner input = new Scanner(System.in);
+        // Scanner input = new Scanner(System.in);
         
-        double mediaGeral = 0;
+        // double mediaGeral = 0;
 
-        int counter = 0;
+        // int counter = 0;
 
-        double[] alunos = new double[input.nextInt()];
+        // double[] alunos = new double[input.nextInt()];
 
         
 
-        for(int i = 0; i < alunos.length; i++){
-            System.out.println("Digite a nota do aluno: ");
-            alunos[i] = input.nextDouble();
-        }
+        // for(int i = 0; i < alunos.length; i++){
+        //     System.out.println("Digite a nota do aluno: ");
+        //     alunos[i] = input.nextDouble();
+        // }
 
-        for(int x = 0; x < alunos.length; x++){
-            mediaGeral += alunos[x];
-        }
+        // for(int x = 0; x < alunos.length; x++){
+        //     mediaGeral += alunos[x];
+        // }
 
-        mediaGeral = mediaGeral/alunos.length;
+        // mediaGeral = mediaGeral/alunos.length;
 
-        for(int j = 0; j < alunos.length; j++){
-            if(alunos[j] >= mediaGeral){
-                counter += 1;
-            }
-        }
+        // for(int j = 0; j < alunos.length; j++){
+        //     if(alunos[j] >= mediaGeral){
+        //         counter += 1;
+        //     }
+        // }
 
-        double[] alunosMedia = new double[counter];
+        // double[] alunosMedia = new double[counter];
 
-        for(int h = 0; h < alunos.length; h++){
-            if(alunos[h] >= mediaGeral){
-                alunosMedia[h] = alunos[h];
-            }
-        }
+        // for(int h = 0; h < alunos.length; h++){
+        //     if(alunos[h] >= mediaGeral){
+        //         alunosMedia[h] = alunos[h];
+        //     }
+        // }
 
-        for(int g = 0; g < alunosMedia.length; g++){
-            System.out.printf("Notas acima da media: %.2f", alunosMedia[g]);
-        }
+        // for(int g = 0; g < alunosMedia.length; g++){
+        //     System.out.printf("Notas acima da media: %.2f", alunosMedia[g]);
+        // }
+
+        GradeBook cursoJava = new GradeBook();
+        
         
 
 
