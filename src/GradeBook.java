@@ -19,6 +19,16 @@ public class GradeBook {
         return somaNotas/notasAlunos.length;
     }
 
+    public double getMenorNota(){
+        double menorNota = notasAlunos[0];
+        for(double nota : notasAlunos){
+            if(nota < menorNota){
+                menorNota = nota;
+            }
+        }
+        return menorNota;
+    }
+
 
 
 }
