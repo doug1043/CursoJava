@@ -219,7 +219,8 @@ public class App {
         //     System.out.printf("Notas acima da media: %.2f", alunosMedia[g]);
         // }
 
-        GradeBook cursoJava = new GradeBook();
+        // GradeBook cursoJava = new GradeBook();
+        System.out.printf("%d", (int) 0.9);
         
 
 
