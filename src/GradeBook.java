@@ -93,7 +93,7 @@ public class GradeBook {
 
     private void mostrarDistNotas(int[] frequenciaNotas){
         for(int i = 0; i < frequenciaNotas.length; i++){
-            System.out.printf("Quantidade de notas entre %d"+
+            System.out.printf("\nQuantidade de notas entre %d"+
             "e %d: %d", i, i+1, frequenciaNotas[i]);
         }
     }
