@@ -221,6 +221,28 @@ public class App {
 
         // GradeBook cursoJava = new GradeBook();
         System.out.printf("%d", (int) 0.9);
+        Scanner input = new Scanner(System.in);
+        System.out.print("Entre com a quantidade de alunos: \n");
+        double[] notasCursoJava = new double[input.nextInt()];
+
+        System.out.print("\nDigite as notas dos alunos: ");
+
+        for(int i = 0; i < notasCursoJava.length; i++){
+            System.out.printf("Digite a nota do %dº Aluno(a): ", i+1);
+            notasCursoJava[i] = input.nextDouble();
+        }
+
+        GradeBook cursoJava = new GradeBook("curso java", notasCursoJava);
+
+        System.out.printf("Nome do curso: %s\n", cursoJava.getNomeCurso());
+        System.out.printf("Media da turma: %.2f\n", cursoJava.getMediaTurma());
+        System.out.printf("Menor nota da turma: %.2f\n", cursoJava.getMenorNota());
+
+
+        cursoJava.getDistibuirNotas();
+        
+        
+
         
 
 
