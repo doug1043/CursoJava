@@ -221,35 +221,53 @@ public class App {
 
         // GradeBook cursoJava = new GradeBook();S
 
-        Scanner input = new Scanner(System.in);
-        System.out.print("Entre com a quantidade de alunos: \n");
-        double[] notasCursoJava = new double[input.nextInt()];
+        // Scanner input = new Scanner(System.in);
+        // System.out.print("Entre com a quantidade de alunos: \n");
+        // double[] notasCursoJava = new double[input.nextInt()];
 
-        System.out.print("\nDigite as notas dos alunos: ");
+        // System.out.print("\nDigite as notas dos alunos: ");
 
-        for(int i = 0; i < notasCursoJava.length; i++){
-            System.out.printf("Digite a nota do %dº Aluno(a): ", i+1);
-            notasCursoJava[i] = input.nextDouble();
-        }
+        // for(int i = 0; i < notasCursoJava.length; i++){
+        //     System.out.printf("Digite a nota do %dº Aluno(a): ", i+1);
+        //     notasCursoJava[i] = input.nextDouble();
+        // }
 
-        GradeBook cursoJava = new GradeBook("curso java", notasCursoJava);
+        // GradeBook cursoJava = new GradeBook("curso java", notasCursoJava);
 
-        System.out.printf("Nome do curso: %s\n", cursoJava.getNomeCurso());
-        System.out.printf("Media da turma: %.2f\n", cursoJava.getMediaTurma());
-        System.out.printf("Menor nota da turma: %.2f\n", cursoJava.getMenorNota());
+        // System.out.printf("Nome do curso: %s\n", cursoJava.getNomeCurso());
+        // System.out.printf("Media da turma: %.2f\n", cursoJava.getMediaTurma());
+        // System.out.printf("Menor nota da turma: %.2f\n", cursoJava.getMenorNota());
 
 
-        cursoJava.getDistibuirNotas();
+        // cursoJava.getDistibuirNotas();
+
+        // int[] array1 = {1,2,3,4,5};
+
+        // String[] array2 = {"teste1","teste2","teste3"};
+
+        // mostrarArray(array1);
+        // mostrarArray(array2);
+
+        
+
+        
         
 
 
 
-
-
-
-
-
     }
+
+    // private static void mostrarArray(int[] arrayInts){
+    //     for(int element : arrayInts){
+    //         System.out.printf("\nElemento: %d", element);
+    //     }
+    // }
+
+    // private static void mostrarArray(String[] arrayStrings){
+    //     for(String element : arrayStrings){
+    //         System.out.printf("\nElemento: %s", element);
+    //     }
+    // }
 
     
 }
